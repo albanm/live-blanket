@@ -7,7 +7,7 @@ Blanket is a nice code coverage tool written in Javascript that can be used dire
 
 Add this somewhere in the page:
 
-    <script src="https://rawgit.com/alex-seville/blanket/v1.1.7/dist/qunit/blanket.min.js" data-cover-adapter="./live-blanket.js" data-cover-only="//.*/" data-cover-timeout="10000"></script>
+    <script src="https://rawgit.com/alex-seville/blanket/v1.1.7/dist/qunit/blanket.min.js" data-cover-adapter="https://rawgit.com/albanm/live-blanket/master/live-blanket.js" data-cover-only="//.*/" data-cover-timeout="10000"></script>
 
 Use the webpage, then open the javascript console in the developper tools of your browser and execute this line of code:
 
