@@ -1,6 +1,8 @@
 # live-blanket
 Run [blanket.js](https://github.com/alex-seville) manually on your webpage sources.
 
+Have a look at the [demo](http://albanm.github.io/live-blanket/).
+
 Blanket is a nice code coverage tool written in Javascript that can be used directly in the browser. This project is a very simple adapter for covering code during some manual testing of a webpage. Handy for a little bit of dead code analysis when you don't have a complete automated test suite.
 
 ## Usage
