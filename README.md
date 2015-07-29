@@ -15,4 +15,4 @@ Then open it and follow instructions from the box that should appear at the top 
 
 Some libraries like angular can trigger instrumentation errors for blanket. In this case you can use the "data-cover-never" to exclude some files. For example:
 
-<script src="https://rawgit.com/alex-seville/blanket/v1.1.7/dist/qunit/blanket.min.js" data-cover-adapter="https://rawgit.com/albanm/live-blanket/master/live-blanket.js" data-cover-only="//.*/" data-cover-never="[angular.js]" data-cover-timeout="10000"></script>
+    <script src="https://rawgit.com/alex-seville/blanket/v1.1.7/dist/qunit/blanket.min.js" data-cover-adapter="https://rawgit.com/albanm/live-blanket/master/live-blanket.js" data-cover-only="//.*/" data-cover-never="[angular.js]" data-cover-timeout="10000"></script>
